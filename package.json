@@ -8,7 +8,7 @@
     "start": "npm run build && node server.js"
   },
   "engines": {
-   "node": "12.11.1"
+   "node": "v14.19.0"
    },
   "keywords": [],
   "author": "",
