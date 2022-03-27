@@ -74,4 +74,4 @@ app.get("/:id", async (req, res) => {
   res.send(response);
 });
 
-app.listen(5000);
+app.listen(5000 || process.env.PORT);
